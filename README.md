@@ -15,7 +15,7 @@ http://www.tastones.com/stackoverflow/ruby-language/gem-usage/using_a_gemfile_an
 
 xcconfig 配置教程
 https://blog.csdn.net/weixin_45390999/article/details/104481185
-
+Configurations 文件内部使用 #include 需要使用虚拟文件夹才能找到文件目录
 
 
 # moments-ios
