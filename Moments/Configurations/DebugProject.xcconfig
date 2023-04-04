@@ -1,0 +1,20 @@
+//
+//  DebugProject.xcconfig
+//  Moments
+//
+//  Created by ChenBing on 2023/4/4.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+
+//    SWIFT_ACTIVE_COMPILATION_CONDITIONS Swift 中的预编译
+//    在 podspec 文件中，可以通过 pod_target_xcconfig 修改的编译选项，给模块添加条件编译的宏定义。
+//    在 Objective-C 文件中，条件编译所用到的宏定义，是通过：GCC_PREPROCESSOR_DEFINITIONS 的 Preprocessor Macros 来定义的。
+//    在 Xcode 8 之后，在 Swift 文件中使用到的宏，是通过 SWIFT_ACTIVE_COMPILATION_CONDITIONS 的 Active Compilation Conditions 去定义的，直接定义添加宏名称即可。
+
+
+
+#include "BaseProject.xcconfig"
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = $(inherited) DEBUG

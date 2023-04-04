@@ -1,0 +1,13 @@
+//
+//  CompilerAndLanguage.xcconfig
+//  Moments
+//
+//  Created by ChenBing on 2023/4/4.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+// Apple LLVM 9.0 - Language - Modules
+CLANG_ENABLE_MODULES = YES
+SWIFT_VERSION = 5.0

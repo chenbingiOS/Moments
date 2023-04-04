@@ -1,0 +1,31 @@
+//
+//  SDKAndDeviceSupport.xcconfig
+//  Moments
+//
+//  Created by ChenBing on 2023/4/4.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+
+//    TARGETED_DEVICE_FAMILY 编译选项说明
+//    https://juejin.cn/post/6863782919384367118
+//    TARGETED_DEVICE_FAMILY 是 Xcode 编译选项里的一个字段，用于标识当前项目适用于哪些硬件设备。
+//    TARGETED_DEVICE_FAMILY      Device
+//            1                   iPhone
+//            2                   iPad
+//            3                   Apple TV
+//            4                   Apple Watch
+//            5                   Apple HomePod
+//            6                   Mac
+//    可以组合使用，比如一个支持 iPhone、iPad、TV、Watch 和 macOS 的工具库，就应该设置为：
+//    TARGETED_DEVICE_FAMILY = 1,2,3,4,6
+//    如果还要支持 Mac Catalyst，需要设置：
+//    SUPPORTS_MACCATALYST = YES
+
+//    IPHONEOS_DEPLOYMENT_TARGET 指的是编译出的程序将在哪个系统版本上运行。
+
+// Deployment
+TARGETED_DEVICE_FAMILY = 1
+IPHONEOS_DEPLOYMENT_TARGET = 14.0

@@ -1,0 +1,18 @@
+//
+//  BaseTarget.xcconfig
+//  Moments
+//
+//  Created by ChenBing on 2023/4/4.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+//    PRODUCT_VERSION 版本信息
+// Versioning
+PRODUCT_VERSION_SUFFIX = 0
+PRODUCT_VERSION_BASE = 1.0.0
+PRODUCT_VERSION = $(PRODUCT_VERSION_BASE).$(PRODUCT_VERSION_SUFFIX)
+
+PRODUCT_BUNDLE_NAME = Moments
+PRODUCT_BUNDLE_IDENTIFIER = com.meitu.chenbing.moments

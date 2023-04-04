@@ -1,0 +1,20 @@
+//
+//  DebugTarget.xcconfig
+//  Moments
+//
+//  Created by ChenBing on 2023/4/4.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+
+//    PRODUCT_BUNDLE_NAME是 App 的名字
+//    PRODUCT_BUNDLE_IDENTIFIER 配置对应的标识符，例如com.company.free和com.company.paid。
+
+#include "../Pods/Target Support Files/Pods-Moments/Pods-Moments.debug.xcconfig"
+#include "BaseTarget.xcconfig"
+PRODUCT_BUNDLE_NAME = $(inherited) α
+PRODUCT_BUNDLE_IDENTIFIER = $(inherited).development
+
+

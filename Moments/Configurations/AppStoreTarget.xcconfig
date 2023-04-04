@@ -1,0 +1,15 @@
+//
+//  AppStoreTarget.xcconfig
+//  Moments
+//
+//  Created by ChenBing on 2023/4/4.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "../Pods/Target Support Files/Pods-Moments/Pods-Moments.appstore.xcconfig"
+#include "BaseTarget.xcconfig"
+
+PRODUCT_BUNDLE_NAME = $(inherited)
+PRODUCT_BUNDLE_IDENTIFIER = $(inherited)
