@@ -14,7 +14,7 @@ enum NavigationAction {
 }
 // 路由协议
 protocol AppRouting {
-    func routeToInternalMenu(_ action: NavigationAction, from: UIViewController?)
+    func presentInternalMenu(from viewController: UIViewController?)
 }
 
 struct AppRouter: AppRouting {
@@ -24,13 +24,12 @@ struct AppRouter: AppRouting {
 
     private init() {}
 
-    func routeToInternalMenu(_ action: NavigationAction, from: UIViewController?) {
-        guard let rootVC = rootViewController else { return }
+    func presentInternalMenu(from viewController: UIViewController?) {
+        guard let fromVC = viewController else { return }
 
         let viewModel = InternalMenuViewModel(appRouter: self)
         let internalMenuVC = InternalMenuViewController(viewModel: viewModel)
-        let navc = UINavigationController(rootViewController: internalMenuVC)
-        rootVC.present(navc, animated: true)
-
+        let naviC = UINavigationController(rootViewController: internalMenuVC)
+        fromVC.present(naviC, animated: true)
     }
 }
