@@ -3,7 +3,7 @@ source 'https://cdn.cocoapods.org/'
 workspace './Moments.xcworkspace'
 project './Moments/Moments.xcodeproj'
 
-platform :ios, '14.0'
+platform :ios, '13.0'
 use_frameworks!
 
 def core_pods

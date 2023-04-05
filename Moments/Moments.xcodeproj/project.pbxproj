@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		0AA7F344F942AA90863314F7 /* Pods_Moments.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D8C4D94AE7AF170C4F4E8A /* Pods_Moments.framework */; };
-		7C5725CD29DC563900D860D5 /* InternalTarget.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 7C5725C329DC563900D860D5 /* InternalTarget.xcconfig */; };
 		7C5725CE29DC563900D860D5 /* CompilerAndLanguage.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 7C5725C429DC563900D860D5 /* CompilerAndLanguage.xcconfig */; };
 		7C5725CF29DC563900D860D5 /* AppStoreProject.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 7C5725C529DC563900D860D5 /* AppStoreProject.xcconfig */; };
 		7C5725D029DC563900D860D5 /* BaseProject.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 7C5725C629DC563900D860D5 /* BaseProject.xcconfig */; };
-		7C5725D129DC563900D860D5 /* AppStoreTarget.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 7C5725C729DC563900D860D5 /* AppStoreTarget.xcconfig */; };
 		7C5725D229DC563900D860D5 /* InternalProject.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 7C5725C829DC563900D860D5 /* InternalProject.xcconfig */; };
 		7C5725D329DC563900D860D5 /* SDKAndDeviceSupport.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 7C5725C929DC563900D860D5 /* SDKAndDeviceSupport.xcconfig */; };
 		7C5725D429DC563900D860D5 /* DebugProject.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 7C5725CA29DC563900D860D5 /* DebugProject.xcconfig */; };
-		7C5725D529DC563900D860D5 /* DebugTarget.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 7C5725CB29DC563900D860D5 /* DebugTarget.xcconfig */; };
-		7C5725D629DC563900D860D5 /* BaseTarget.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 7C5725CC29DC563900D860D5 /* BaseTarget.xcconfig */; };
 		7C5725DB29DC5D4100D860D5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7C5725DA29DC5D4100D860D5 /* README.md */; };
+		7C5725E029DC640A00D860D5 /* DebugTarget.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 7C5725DC29DC640A00D860D5 /* DebugTarget.xcconfig */; };
+		7C5725E129DC640A00D860D5 /* AppStoreTarget.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 7C5725DD29DC640A00D860D5 /* AppStoreTarget.xcconfig */; };
+		7C5725E229DC640A00D860D5 /* BaseTarget.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 7C5725DE29DC640A00D860D5 /* BaseTarget.xcconfig */; };
+		7C5725E329DC640A00D860D5 /* InternalTarget.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 7C5725DF29DC640A00D860D5 /* InternalTarget.xcconfig */; };
 		7CABF87A29DABB57003F5897 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CABF87929DABB57003F5897 /* AppDelegate.swift */; };
 		7CABF87C29DABB57003F5897 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CABF87B29DABB57003F5897 /* SceneDelegate.swift */; };
 		7CABF87E29DABB57003F5897 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CABF87D29DABB57003F5897 /* ViewController.swift */; };
@@ -47,17 +47,17 @@
 		45D8C4D94AE7AF170C4F4E8A /* Pods_Moments.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moments.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48C749CCD4F825F8EDC60FFF /* Pods-MomentsTests.appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MomentsTests.appstore.xcconfig"; path = "Target Support Files/Pods-MomentsTests/Pods-MomentsTests.appstore.xcconfig"; sourceTree = "<group>"; };
 		6E025B35C03C0142B81797A4 /* Pods-MomentsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MomentsTests.release.xcconfig"; path = "Target Support Files/Pods-MomentsTests/Pods-MomentsTests.release.xcconfig"; sourceTree = "<group>"; };
-		7C5725C329DC563900D860D5 /* InternalTarget.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = InternalTarget.xcconfig; sourceTree = "<group>"; };
 		7C5725C429DC563900D860D5 /* CompilerAndLanguage.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = CompilerAndLanguage.xcconfig; sourceTree = "<group>"; };
 		7C5725C529DC563900D860D5 /* AppStoreProject.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = AppStoreProject.xcconfig; sourceTree = "<group>"; };
 		7C5725C629DC563900D860D5 /* BaseProject.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = BaseProject.xcconfig; sourceTree = "<group>"; };
-		7C5725C729DC563900D860D5 /* AppStoreTarget.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = AppStoreTarget.xcconfig; sourceTree = "<group>"; };
 		7C5725C829DC563900D860D5 /* InternalProject.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = InternalProject.xcconfig; sourceTree = "<group>"; };
 		7C5725C929DC563900D860D5 /* SDKAndDeviceSupport.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = SDKAndDeviceSupport.xcconfig; sourceTree = "<group>"; };
 		7C5725CA29DC563900D860D5 /* DebugProject.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = DebugProject.xcconfig; sourceTree = "<group>"; };
-		7C5725CB29DC563900D860D5 /* DebugTarget.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = DebugTarget.xcconfig; sourceTree = "<group>"; };
-		7C5725CC29DC563900D860D5 /* BaseTarget.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = BaseTarget.xcconfig; sourceTree = "<group>"; };
 		7C5725DA29DC5D4100D860D5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
+		7C5725DC29DC640A00D860D5 /* DebugTarget.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = DebugTarget.xcconfig; sourceTree = "<group>"; };
+		7C5725DD29DC640A00D860D5 /* AppStoreTarget.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = AppStoreTarget.xcconfig; sourceTree = "<group>"; };
+		7C5725DE29DC640A00D860D5 /* BaseTarget.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = BaseTarget.xcconfig; sourceTree = "<group>"; };
+		7C5725DF29DC640A00D860D5 /* InternalTarget.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = InternalTarget.xcconfig; sourceTree = "<group>"; };
 		7CABF87629DABB57003F5897 /* Moments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moments.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CABF87929DABB57003F5897 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CABF87B29DABB57003F5897 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -134,7 +134,7 @@
 				7C5725C429DC563900D860D5 /* CompilerAndLanguage.xcconfig */,
 				7C5725C929DC563900D860D5 /* SDKAndDeviceSupport.xcconfig */,
 			);
-			path = Shared;
+			name = Shared;
 			sourceTree = "<group>";
 		};
 		7C5725D829DC56E600D860D5 /* Project */ = {
@@ -145,18 +145,18 @@
 				7C5725CA29DC563900D860D5 /* DebugProject.xcconfig */,
 				7C5725C829DC563900D860D5 /* InternalProject.xcconfig */,
 			);
-			path = Project;
+			name = Project;
 			sourceTree = "<group>";
 		};
 		7C5725D929DC56EF00D860D5 /* Target */ = {
 			isa = PBXGroup;
 			children = (
-				7C5725C729DC563900D860D5 /* AppStoreTarget.xcconfig */,
-				7C5725CC29DC563900D860D5 /* BaseTarget.xcconfig */,
-				7C5725CB29DC563900D860D5 /* DebugTarget.xcconfig */,
-				7C5725C329DC563900D860D5 /* InternalTarget.xcconfig */,
+				7C5725DD29DC640A00D860D5 /* AppStoreTarget.xcconfig */,
+				7C5725DE29DC640A00D860D5 /* BaseTarget.xcconfig */,
+				7C5725DC29DC640A00D860D5 /* DebugTarget.xcconfig */,
+				7C5725DF29DC640A00D860D5 /* InternalTarget.xcconfig */,
 			);
-			path = Target;
+			name = Target;
 			sourceTree = "<group>";
 		};
 		7CABF86D29DABB57003F5897 = {
@@ -252,7 +252,7 @@
 		7CABF86E29DABB57003F5897 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = YES;
+				BuildIndependentTargetsInParallel = NO;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
@@ -290,15 +290,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C5725CF29DC563900D860D5 /* AppStoreProject.xcconfig in Resources */,
-				7C5725D129DC563900D860D5 /* AppStoreTarget.xcconfig in Resources */,
+				7C5725E129DC640A00D860D5 /* AppStoreTarget.xcconfig in Resources */,
 				7CABF88329DABB59003F5897 /* Assets.xcassets in Resources */,
 				7C5725D029DC563900D860D5 /* BaseProject.xcconfig in Resources */,
-				7C5725D629DC563900D860D5 /* BaseTarget.xcconfig in Resources */,
+				7C5725E229DC640A00D860D5 /* BaseTarget.xcconfig in Resources */,
 				7C5725CE29DC563900D860D5 /* CompilerAndLanguage.xcconfig in Resources */,
 				7C5725D429DC563900D860D5 /* DebugProject.xcconfig in Resources */,
-				7C5725D529DC563900D860D5 /* DebugTarget.xcconfig in Resources */,
+				7C5725E029DC640A00D860D5 /* DebugTarget.xcconfig in Resources */,
 				7C5725D229DC563900D860D5 /* InternalProject.xcconfig in Resources */,
-				7C5725CD29DC563900D860D5 /* InternalTarget.xcconfig in Resources */,
+				7C5725E329DC640A00D860D5 /* InternalTarget.xcconfig in Resources */,
 				7CABF88629DABB59003F5897 /* LaunchScreen.storyboard in Resources */,
 				7CABF88129DABB57003F5897 /* Main.storyboard in Resources */,
 				7C5725DB29DC5D4100D860D5 /* README.md in Resources */,
@@ -465,6 +465,7 @@
 /* Begin XCBuildConfiguration section */
 		7C3B6D9629DC291D00B6A387 /* AppStore */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C5725C529DC563900D860D5 /* AppStoreProject.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -513,7 +514,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -525,27 +525,30 @@
 		};
 		7C3B6D9729DC291D00B6A387 /* AppStore */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D490A2BD0284987E67598090 /* Pods-Moments.appstore.xcconfig */;
+			baseConfigurationReference = 7C5725DD29DC640A00D860D5 /* AppStoreTarget.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = "${PRODUCT_VERSION_SHORT}";
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Moments/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(PRODUCT_BUNDLE_NAME)";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = "$(IPHONEOS_DEPLOYMENT_TARGET)";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = "$(PRODUCT_VERSION)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
@@ -576,6 +579,7 @@
 		};
 		7C3B6D9C29DC299B00B6A387 /* Internal */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C5725C829DC563900D860D5 /* InternalProject.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -624,7 +628,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -636,28 +639,30 @@
 		};
 		7C3B6D9D29DC299B00B6A387 /* Internal */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13984D2C669014B24A2360B4 /* Pods-Moments.internal.xcconfig */;
+			baseConfigurationReference = 7C5725DF29DC640A00D860D5 /* InternalTarget.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = "${PRODUCT_VERSION_SHORT}";
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Moments/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(PRODUCT_BUNDLE_NAME)";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = "$(IPHONEOS_DEPLOYMENT_TARGET)";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = .internal;
+				MARKETING_VERSION = "$(PRODUCT_VERSION)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
@@ -686,120 +691,9 @@
 			};
 			name = Internal;
 		};
-		7C5725BF29DC536B00D860D5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Release;
-		};
-		7C5725C029DC536B00D860D5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42BE1CD5BC139FC654F29E68 /* Pods-Moments.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Moments/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = "$(IPHONEOS_DEPLOYMENT_TARGET)";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = .development;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Release;
-		};
-		7C5725C129DC536B00D860D5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E025B35C03C0142B81797A4 /* Pods-MomentsTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 24YHS6RWKP;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.meitu.demo.MomentsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moments.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Moments";
-			};
-			name = Release;
-		};
 		7CABF88829DABB59003F5897 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C5725CA29DC563900D860D5 /* DebugProject.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -848,7 +742,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -860,28 +753,30 @@
 		};
 		7CABF88B29DABB59003F5897 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3777E299E5A4A25EF2AA8AEB /* Pods-Moments.debug.xcconfig */;
+			baseConfigurationReference = 7C5725DC29DC640A00D860D5 /* DebugTarget.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = "${PRODUCT_VERSION_SHORT}";
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Moments/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(PRODUCT_BUNDLE_NAME)";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = "$(IPHONEOS_DEPLOYMENT_TARGET)";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = .development;
+				MARKETING_VERSION = "$(PRODUCT_VERSION)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
@@ -917,7 +812,6 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7CABF88829DABB59003F5897 /* Debug */,
-				7C5725BF29DC536B00D860D5 /* Release */,
 				7C3B6D9629DC291D00B6A387 /* AppStore */,
 				7C3B6D9C29DC299B00B6A387 /* Internal */,
 			);
@@ -928,7 +822,6 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7CABF88B29DABB59003F5897 /* Debug */,
-				7C5725C029DC536B00D860D5 /* Release */,
 				7C3B6D9729DC291D00B6A387 /* AppStore */,
 				7C3B6D9D29DC299B00B6A387 /* Internal */,
 			);
@@ -939,7 +832,6 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7CABF89729DAC178003F5897 /* Debug */,
-				7C5725C129DC536B00D860D5 /* Release */,
 				7C3B6D9829DC291D00B6A387 /* AppStore */,
 				7C3B6D9E29DC299B00B6A387 /* Internal */,
 			);
