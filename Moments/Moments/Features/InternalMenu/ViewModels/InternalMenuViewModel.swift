@@ -17,7 +17,7 @@ class InternalMenuViewModel: InternalMenuViewModelType {
     let title: String = "Area 51"
     let section: Observable<[InternalMenuSection]>
 
-    init(appRouter: AppRouting) {
+    init(router: InternalMenuRouter) {
         let vserion = Bundle.main.object(forInfoDictionaryKey: "CFBundleVersion") as? String ?? "1.0.0"
         let appVersion = "Vserion \(vserion)"
 

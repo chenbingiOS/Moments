@@ -6,19 +6,11 @@
 //
 
 import UIKit
+import SnapKit
 
 class InternalMenuViewController: BaseViewController {
 
-    let viewModel: InternalMenuViewModelType
-
-    init(viewModel: InternalMenuViewModelType) {
-        self.viewModel = viewModel
-        super.init(nibName: nil, bundle: nil)
-    }
-
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
+    var viewModel: InternalMenuViewModelType!
 
     lazy var tableView: UITableView = configure(UITableView(frame: CGRect.zero, style: .grouped)) {
         $0.rowHeight = UITableView.automaticDimension
@@ -33,7 +25,20 @@ class InternalMenuViewController: BaseViewController {
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .done,
                                                             target: self,
                                                             action: #selector(dismissModel))
+
+        setupLayout()
     }
+
+    func setupLayout() {
+        view.addSubview(tableView)
+        tableView.snp.makeConstraints { make in
+            make.edges.equalToSuperview()
+        }
+    }
+
+    func setupBindings() {
+
+    }    
 
     @objc
     func dismissModel() {

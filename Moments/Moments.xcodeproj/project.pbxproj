@@ -37,6 +37,7 @@
 		7CCCCB2229DD589A002C8C06 /* InternalMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCCCB2129DD589A002C8C06 /* InternalMenuCell.swift */; };
 		7CCCCB2429DD58B4002C8C06 /* InternalMenuDescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCCCB2329DD58B4002C8C06 /* InternalMenuDescriptionCell.swift */; };
 		7CE951BD29DDAB0A00D03B6A /* UIApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE951BC29DDAB0A00D03B6A /* UIApplicationExtension.swift */; };
+		7CE951C529DDB99200D03B6A /* InternalMenuRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE951C429DDB99200D03B6A /* InternalMenuRouter.swift */; };
 		E433597EEFC1A5CAC278303C /* Pods_MomentsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F19C675D284A9A0E1BC515D2 /* Pods_MomentsTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -90,6 +91,7 @@
 		7CCCCB2129DD589A002C8C06 /* InternalMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternalMenuCell.swift; sourceTree = "<group>"; };
 		7CCCCB2329DD58B4002C8C06 /* InternalMenuDescriptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternalMenuDescriptionCell.swift; sourceTree = "<group>"; };
 		7CE951BC29DDAB0A00D03B6A /* UIApplicationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationExtension.swift; sourceTree = "<group>"; };
+		7CE951C429DDB99200D03B6A /* InternalMenuRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternalMenuRouter.swift; sourceTree = "<group>"; };
 		B46856CDF0BC96B22E1E3398 /* Pods-MomentsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MomentsTests.debug.xcconfig"; path = "Target Support Files/Pods-MomentsTests/Pods-MomentsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D490A2BD0284987E67598090 /* Pods-Moments.appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moments.appstore.xcconfig"; path = "Target Support Files/Pods-Moments/Pods-Moments.appstore.xcconfig"; sourceTree = "<group>"; };
 		F19C675D284A9A0E1BC515D2 /* Pods_MomentsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MomentsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -273,6 +275,7 @@
 		7CCCCB1429DD5324002C8C06 /* InternalMenu */ = {
 			isa = PBXGroup;
 			children = (
+				7CE951C329DDB98500D03B6A /* Routes */,
 				7CCCCB1529DD5331002C8C06 /* ViewModels */,
 				7CCCCB1629DD5337002C8C06 /* Views */,
 			);
@@ -306,6 +309,14 @@
 				7CE951BC29DDAB0A00D03B6A /* UIApplicationExtension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7CE951C329DDB98500D03B6A /* Routes */ = {
+			isa = PBXGroup;
+			children = (
+				7CE951C429DDB99200D03B6A /* InternalMenuRouter.swift */,
+			);
+			path = Routes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -531,6 +542,7 @@
 				7CCCCB2229DD589A002C8C06 /* InternalMenuCell.swift in Sources */,
 				7CCCCB2429DD58B4002C8C06 /* InternalMenuDescriptionCell.swift in Sources */,
 				7CCCCB2029DD55F4002C8C06 /* InternalMenuDescriptionItemViewModel.swift in Sources */,
+				7CE951C529DDB99200D03B6A /* InternalMenuRouter.swift in Sources */,
 				7CCCCB1E29DD546B002C8C06 /* InternalMenuItemViewModel.swift in Sources */,
 				7CCCCB1C29DD53FC002C8C06 /* InternalMenuSection.swift in Sources */,
 				7CCCCB1829DD536C002C8C06 /* InternalMenuViewController.swift in Sources */,
