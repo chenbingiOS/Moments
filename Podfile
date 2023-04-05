@@ -7,6 +7,9 @@ project './Moments/Moments.xcodeproj'
 platform :ios, '13.0'
 use_frameworks!
 
+# ignore all warnings from all dependencies
+inhibit_all_warnings!
+
 def core_pods
     pod 'SwiftLint', '0.40.3', configurations: ['Debug']
     pod 'RxSwift', '5.1.1'
