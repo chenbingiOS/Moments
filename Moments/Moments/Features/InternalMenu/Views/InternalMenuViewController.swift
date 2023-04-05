@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import RxDataSources
 import SnapKit
 
 class InternalMenuViewController: BaseViewController {
@@ -27,6 +28,7 @@ class InternalMenuViewController: BaseViewController {
                                                             action: #selector(dismissModel))
 
         setupLayout()
+        setupBindings()
     }
 
     func setupLayout() {
@@ -37,8 +39,37 @@ class InternalMenuViewController: BaseViewController {
     }
 
     func setupBindings() {
+        let dataSource = RxTableViewSectionedReloadDataSource<InternalMenuSection>(
+            configureCell: { _, tableView, indexPath, item in
+                let cell = tableView.dequeueReusableCell(withIdentifier: item.type.rawValue, for: indexPath)
+                if let cell = cell as? InternalMenuItemViewing {
+                    cell.update(with: item)
+                }
+                return cell
+            }, titleForHeaderInSection: { dataSource, section in
+                return dataSource.sectionModels[section].title
+            }, titleForFooterInSection: { dataSource, section in
+                return dataSource.sectionModels[section].footer
+            })
 
-    }    
+        viewModel.sections
+            .bind(to: tableView.rx.items(dataSource: dataSource))
+            .disposed(by: disposeBag)
+
+        tableView.rx
+            .itemSelected
+            .subscribe(onNext: { [weak self] indexPath in
+                self?.tableView.deselectRow(at: indexPath, animated: true)
+            })
+            .disposed(by: disposeBag)
+
+        tableView.rx
+            .modelSelected(InternalMenuItemViewModel.self)
+            .subscribe(onNext: { item in
+                item.select()
+            })
+            .disposed(by: disposeBag)
+    }
 
     @objc
     func dismissModel() {
