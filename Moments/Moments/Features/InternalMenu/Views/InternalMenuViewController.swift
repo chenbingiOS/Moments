@@ -17,6 +17,7 @@ class InternalMenuViewController: BaseViewController {
         $0.rowHeight = UITableView.automaticDimension
         $0.estimatedRowHeight = 44
         $0.register(InternalMenuDescriptionCell.self, forCellReuseIdentifier: InternalMenuItemType.description.rawValue)
+        $0.register(InternalMenuActionTriggerCell.self, forCellReuseIdentifier: InternalMenuItemType.actionTrigger.rawValue)
     }
 
     override func viewDidLoad() {

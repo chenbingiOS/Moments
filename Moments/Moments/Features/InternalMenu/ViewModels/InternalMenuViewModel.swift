@@ -17,7 +17,7 @@ class InternalMenuViewModel: InternalMenuViewModelType {
     let title: String = "Area 51"
     let sections: Observable<[InternalMenuSection]>
 
-    init(router: InternalMenuRouter) {
+    init(router: InternalMenuRouting) {
         let vserion = Bundle.main.object(forInfoDictionaryKey: "CFBundleVersionShort") as? String ?? "1.0.0"
         let build = Bundle.main.object(forInfoDictionaryKey: "CFBundleVersion") as? String ?? "1"
         let appVersion = "Vserion \(vserion) (Build \(build)) "
@@ -27,8 +27,13 @@ class InternalMenuViewModel: InternalMenuViewModelType {
             items: [InternalMenuDescriptionItemViewModel(title: appVersion)]
         )
 
+        let designKitSection = InternalMenuSection(
+            title: "DesignKit Demo",
+            items: [DesignKitDemoItemViewModel(router: router)])
+
         sections = .just([
-            infoSection
+            infoSection,
+            designKitSection
         ])
     }
 }
