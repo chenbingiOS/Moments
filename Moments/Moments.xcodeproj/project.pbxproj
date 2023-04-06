@@ -26,6 +26,8 @@
 		7CABF88329DABB59003F5897 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CABF88229DABB59003F5897 /* Assets.xcassets */; };
 		7CABF88629DABB59003F5897 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CABF88429DABB59003F5897 /* LaunchScreen.storyboard */; };
 		7CABF89429DAC178003F5897 /* MomentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CABF89329DAC178003F5897 /* MomentsTests.swift */; };
+		7CB1DC7429DF11B0006E05C8 /* InternalMenuActionTriggerItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB1DC7329DF11B0006E05C8 /* InternalMenuActionTriggerItemViewModel.swift */; };
+		7CB1DC7829DF1446006E05C8 /* InternalMenuActionTriggerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB1DC7729DF1446006E05C8 /* InternalMenuActionTriggerCell.swift */; };
 		7CCCCB0C29DD4E66002C8C06 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCCCB0B29DD4E66002C8C06 /* Functions.swift */; };
 		7CCCCB0F29DD50FC002C8C06 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCCCB0E29DD50FC002C8C06 /* BaseViewController.swift */; };
 		7CCCCB1229DD51DE002C8C06 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCCCB1129DD51DE002C8C06 /* AppRouter.swift */; };
@@ -80,6 +82,8 @@
 		7CABF88729DABB59003F5897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CABF89129DAC177003F5897 /* MomentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MomentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CABF89329DAC178003F5897 /* MomentsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentsTests.swift; sourceTree = "<group>"; };
+		7CB1DC7329DF11B0006E05C8 /* InternalMenuActionTriggerItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternalMenuActionTriggerItemViewModel.swift; sourceTree = "<group>"; };
+		7CB1DC7729DF1446006E05C8 /* InternalMenuActionTriggerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternalMenuActionTriggerCell.swift; sourceTree = "<group>"; };
 		7CCCCB0B29DD4E66002C8C06 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		7CCCCB0E29DD50FC002C8C06 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		7CCCCB1129DD51DE002C8C06 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
@@ -289,6 +293,7 @@
 				7CCCCB1D29DD546B002C8C06 /* InternalMenuItemViewModel.swift */,
 				7CCCCB1B29DD53FC002C8C06 /* InternalMenuSection.swift */,
 				7CCCCB1929DD53AD002C8C06 /* InternalMenuViewModel.swift */,
+				7CB1DC7329DF11B0006E05C8 /* InternalMenuActionTriggerItemViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -299,6 +304,7 @@
 				7CCCCB2129DD589A002C8C06 /* InternalMenuCell.swift */,
 				7CCCCB2329DD58B4002C8C06 /* InternalMenuDescriptionCell.swift */,
 				7CCCCB1729DD536C002C8C06 /* InternalMenuViewController.swift */,
+				7CB1DC7729DF1446006E05C8 /* InternalMenuActionTriggerCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -541,9 +547,11 @@
 				7CCCCB0C29DD4E66002C8C06 /* Functions.swift in Sources */,
 				7CCCCB2229DD589A002C8C06 /* InternalMenuCell.swift in Sources */,
 				7CCCCB2429DD58B4002C8C06 /* InternalMenuDescriptionCell.swift in Sources */,
+				7CB1DC7429DF11B0006E05C8 /* InternalMenuActionTriggerItemViewModel.swift in Sources */,
 				7CCCCB2029DD55F4002C8C06 /* InternalMenuDescriptionItemViewModel.swift in Sources */,
 				7CE951C529DDB99200D03B6A /* InternalMenuRouter.swift in Sources */,
 				7CCCCB1E29DD546B002C8C06 /* InternalMenuItemViewModel.swift in Sources */,
+				7CB1DC7829DF1446006E05C8 /* InternalMenuActionTriggerCell.swift in Sources */,
 				7CCCCB1C29DD53FC002C8C06 /* InternalMenuSection.swift in Sources */,
 				7CCCCB1829DD536C002C8C06 /* InternalMenuViewController.swift in Sources */,
 				7CCCCB1A29DD53AD002C8C06 /* InternalMenuViewModel.swift in Sources */,
