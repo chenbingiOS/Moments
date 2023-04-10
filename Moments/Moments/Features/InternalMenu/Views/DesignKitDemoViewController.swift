@@ -106,7 +106,7 @@ private extension DesignKitDemoViewController {
             $0.text = "# Colors"
             $0.font = UIFont.designKit.title1
         }
-        let stack = configure(UIStackView(arrangedSubviews: [title])) {
+        let stackView = configure(UIStackView(arrangedSubviews: [title])) {
             $0.axis = .vertical
             $0.spacing = 8
         }
@@ -115,11 +115,21 @@ private extension DesignKitDemoViewController {
             let label = configure(UILabel()) {
                 $0.text = item.0
                 $0.textColor = UIColor.designKit.primaryText
+            }
+            let colorView = configure(UIView()) {
                 $0.backgroundColor = item.1
             }
-            stack.addArrangedSubview(label)
+            let length = 32
+            colorView.snp.makeConstraints {
+                $0.width.height.equalTo(length)
+            }
+            let innerStackView = configure(UIStackView(arrangedSubviews: [label, colorView])) {
+                $0.spacing = 8
+                $0.distribution = .equalSpacing
+            }
+            stackView.addArrangedSubview(innerStackView)
         }
-        return stack
+        return stackView
     }
     // 配置头像
     func buildAvatars() -> UIView {
@@ -135,7 +145,7 @@ private extension DesignKitDemoViewController {
             $0.text = "# Avatars"
             $0.font = UIFont.designKit.title1
         }
-        let stack = configure(UIStackView(arrangedSubviews: [title])) {
+        let stackView = configure(UIStackView(arrangedSubviews: [title])) {
             $0.axis = .vertical
             $0.spacing = 8
         }
@@ -152,8 +162,8 @@ private extension DesignKitDemoViewController {
                 $0.width.equalTo(length)
                 $0.height.equalTo(length)
             }
-            stack.addArrangedSubview(imageView)
+            stackView.addArrangedSubview(imageView)
         }
-        return stack
+        return stackView
     }
 }
