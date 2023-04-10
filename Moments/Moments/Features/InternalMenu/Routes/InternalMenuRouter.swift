@@ -20,6 +20,6 @@ struct InternalMenuRouter: InternalMenuRouting {
     }
 
     func showDesignKit() {
-
+        fromContronller?.show(DesignKitDemoViewController(), sender: fromContronller)
     }
 }

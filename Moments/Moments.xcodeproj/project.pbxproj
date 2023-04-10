@@ -19,6 +19,7 @@
 		7C5725E129DC640A00D860D5 /* AppStoreTarget.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 7C5725DD29DC640A00D860D5 /* AppStoreTarget.xcconfig */; };
 		7C5725E229DC640A00D860D5 /* BaseTarget.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 7C5725DE29DC640A00D860D5 /* BaseTarget.xcconfig */; };
 		7C5725E329DC640A00D860D5 /* InternalTarget.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 7C5725DF29DC640A00D860D5 /* InternalTarget.xcconfig */; };
+		7C5A79A529E4449700069192 /* DesignKitDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5A79A429E4449700069192 /* DesignKitDemoViewController.swift */; };
 		7CABF87A29DABB57003F5897 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CABF87929DABB57003F5897 /* AppDelegate.swift */; };
 		7CABF87C29DABB57003F5897 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CABF87B29DABB57003F5897 /* SceneDelegate.swift */; };
 		7CABF87E29DABB57003F5897 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CABF87D29DABB57003F5897 /* ViewController.swift */; };
@@ -73,6 +74,7 @@
 		7C5725DD29DC640A00D860D5 /* AppStoreTarget.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = AppStoreTarget.xcconfig; sourceTree = "<group>"; };
 		7C5725DE29DC640A00D860D5 /* BaseTarget.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = BaseTarget.xcconfig; sourceTree = "<group>"; };
 		7C5725DF29DC640A00D860D5 /* InternalTarget.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = InternalTarget.xcconfig; sourceTree = "<group>"; };
+		7C5A79A429E4449700069192 /* DesignKitDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignKitDemoViewController.swift; sourceTree = "<group>"; };
 		7CABF87629DABB57003F5897 /* Moments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moments.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CABF87929DABB57003F5897 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CABF87B29DABB57003F5897 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -308,6 +310,7 @@
 				7CCCCB2329DD58B4002C8C06 /* InternalMenuDescriptionCell.swift */,
 				7CCCCB1729DD536C002C8C06 /* InternalMenuViewController.swift */,
 				7CB1DC7729DF1446006E05C8 /* InternalMenuActionTriggerCell.swift */,
+				7C5A79A429E4449700069192 /* DesignKitDemoViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -553,6 +556,7 @@
 				7CB1DC7429DF11B0006E05C8 /* InternalMenuActionTriggerItemViewModel.swift in Sources */,
 				7CCCCB2029DD55F4002C8C06 /* InternalMenuDescriptionItemViewModel.swift in Sources */,
 				7CB1DC7A29DF152B006E05C8 /* DesignKitDemoItemViewModel.swift in Sources */,
+				7C5A79A529E4449700069192 /* DesignKitDemoViewController.swift in Sources */,
 				7CE951C529DDB99200D03B6A /* InternalMenuRouter.swift in Sources */,
 				7CCCCB1E29DD546B002C8C06 /* InternalMenuItemViewModel.swift in Sources */,
 				7CB1DC7829DF1446006E05C8 /* InternalMenuActionTriggerCell.swift in Sources */,
