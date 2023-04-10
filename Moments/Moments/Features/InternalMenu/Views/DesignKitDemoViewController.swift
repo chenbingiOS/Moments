@@ -7,6 +7,8 @@
 
 import UIKit
 import DesignKit
+import SnapKit
+import Kingfisher
 
 class DesignKitDemoViewController: UIViewController {
 
@@ -18,6 +20,7 @@ class DesignKitDemoViewController: UIViewController {
 }
 
 private extension DesignKitDemoViewController {
+    // 配置UI
     func setupViews() {
         view.backgroundColor = .systemBackground
 
@@ -25,16 +28,17 @@ private extension DesignKitDemoViewController {
             $0.translatesAutoresizingMaskIntoConstraints = false
         }
         view.addSubview(scrollView)
-        NSLayoutConstraint.activate([
-            scrollView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
-            scrollView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor),
-            scrollView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-            scrollView.trailingAnchor.constraint(equalTo: view.trailingAnchor)
-        ])
+        scrollView.snp.makeConstraints {
+            $0.top.equalTo(self.view.safeAreaLayoutGuide.snp.topMargin)
+            $0.bottom.equalTo(self.view.safeAreaLayoutGuide.snp.bottomMargin)
+            $0.leading.equalToSuperview()
+            $0.trailing.equalToSuperview()
+        }
 
         let rootStackView = configure(UIStackView(arrangedSubviews: [
             buildTypography(),
-            buildColors()
+            buildColors(),
+            buildAvatars()
         ])) {
             $0.translatesAutoresizingMaskIntoConstraints = false
             $0.axis = .vertical
@@ -44,15 +48,12 @@ private extension DesignKitDemoViewController {
             $0.spacing = 16
         }
         scrollView.addSubview(rootStackView)
-        NSLayoutConstraint.activate([
-            rootStackView.topAnchor.constraint(equalTo: scrollView.topAnchor),
-            rootStackView.bottomAnchor.constraint(equalTo: scrollView.bottomAnchor),
-            rootStackView.widthAnchor.constraint(equalTo: scrollView.widthAnchor, multiplier: 1),
-            rootStackView.leadingAnchor.constraint(equalTo: scrollView.leadingAnchor),
-            rootStackView.trailingAnchor.constraint(equalTo: scrollView.trailingAnchor)
-        ])
+        rootStackView.snp.makeConstraints {
+            $0.top.bottom.leading.trailing.equalToSuperview()
+            $0.width.equalTo(scrollView.snp.width)
+        }
     }
-
+    // 增加字体字号演示
     func buildTypography() -> UIView {
         let item = [
             ("dispaly1",    UIFont.designKit.display1),
@@ -87,7 +88,7 @@ private extension DesignKitDemoViewController {
         }
         return stack
     }
-
+    // 增加颜色样式
     func buildColors() -> UIView {
         let item = [
             ("primary",             UIColor.designKit.primary),
@@ -117,6 +118,41 @@ private extension DesignKitDemoViewController {
                 $0.backgroundColor = item.1
             }
             stack.addArrangedSubview(label)
+        }
+        return stack
+    }
+    // 配置头像
+    func buildAvatars() -> UIView {
+        let item = [
+            URL(string: "https://images.generated.photos/SZ43KV-Oo26-wpPUM7zDLo19CpGFH0eBnjegQFtvaUc/rs:fit:512:512/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zLzA4/NTUzMzguanBn.jpg"),
+            URL(string: "https://randomuser.me/api/portraits/women/68.jpg"),
+            URL(string: "https://uifaces.co/our-content/donated/Si9Qv42B.jpg"),
+            URL(string: "https://images-na.ssl-images-amazon.com/images/M/MV5BMjEzNjAzMTgzMV5BMl5BanBnXkFtZTcwNjU2NjA2NQ@@._V1_UY256_CR11,0,172,256_AL_.jpg"),
+            URL(string: "https://uifaces.co/our-content/donated/fID5-1BV.jpg")
+        ]
+
+        let title = configure(UILabel()) {
+            $0.text = "# Avatars"
+            $0.font = UIFont.designKit.title1
+        }
+        let stack = configure(UIStackView(arrangedSubviews: [title])) {
+            $0.axis = .vertical
+            $0.spacing = 8
+        }
+        item.forEach {
+            let item = $0
+            let imageView = configure(UIImageView()) {
+                $0.asAvatar(cornerRadius: 12)
+                $0.contentMode = .scaleAspectFill
+                $0.accessibilityIgnoresInvertColors = true // 辅助功能忽略反转颜色
+                $0.kf.setImage(with: item)
+            }
+            let length: CGFloat = 128
+            imageView.snp.makeConstraints {
+                $0.width.equalTo(length)
+                $0.height.equalTo(length)
+            }
+            stack.addArrangedSubview(imageView)
         }
         return stack
     }
