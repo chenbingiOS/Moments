@@ -60,3 +60,26 @@ public extension UIFont {
         }
     }
 }
+
+public extension UILabel {
+    // 设置动态字体
+    func setDynamicFont(_ dynamicFont: UIFont) {
+        // 调整内容大小类别的字体
+        adjustsFontForContentSizeCategory = true
+        font = dynamicFont
+    }
+}
+
+public extension UITextView {
+    func setDynamicFont(_ dynamicFont: UIFont) {
+        adjustsFontForContentSizeCategory = true
+        font = dynamicFont
+    }
+}
+
+public extension UIButton {
+    func setDynamicFont(_ dynamicFont: UIFont) {
+        titleLabel?.adjustsFontForContentSizeCategory = true
+        titleLabel?.font = dynamicFont
+    }
+}

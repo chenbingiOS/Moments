@@ -9,7 +9,8 @@ import UIKit
 import RxDataSources
 import SnapKit
 
-class InternalMenuViewController: BaseViewController {
+// 标记为最终类，不可被继承
+final class InternalMenuViewController: BaseViewController {
 
     var viewModel: InternalMenuViewModelType!
 

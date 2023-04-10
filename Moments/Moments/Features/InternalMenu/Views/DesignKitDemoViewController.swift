@@ -78,7 +78,7 @@ private extension DesignKitDemoViewController {
             let item = $0
             let label = configure(UILabel()) {
                 $0.text = item.0
-                $0.font = item.1
+                $0.setDynamicFont(item.1) // 调整内容大小类别的字体
             }
             stack.addArrangedSubview(label)
         }
