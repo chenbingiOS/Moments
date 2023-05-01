@@ -239,3 +239,4 @@ fastlane/test_output
 fastlane/FastlaneRunner
 
 fastlane/dist
+.DS_Store
